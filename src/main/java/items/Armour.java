@@ -1,15 +1,15 @@
 package items;
 
+import behaviours.ISell;
+import items.ENUMs.ItemElement;
 import items.ENUMs.ItemType;
 
-import java.lang.annotation.ElementType;
-
-public abstract class Armour extends Items {
+public abstract class Armour extends Items implements ISell {
 
     private int defence;
-    private ElementType element;
+    private ItemElement element;
     private int bodySlot;
-    protected Armour(String name, String description, ItemType type, int stockPrice, int sellPrice, int defence, ElementType element, int bodySlot) {
+    protected Armour(String name, String description, ItemType type, int stockPrice, int sellPrice, int defence, ItemElement element, int bodySlot) {
         super(name, description, type, stockPrice, sellPrice);
         this.defence = defence;
         this.element = element;
