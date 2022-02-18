@@ -1,4 +1,6 @@
 package items;
 
-public abstract class PowerUps {
+import behaviours.ITalk;
+
+public abstract class PowerUps extends Items implements ITalk {
 }
