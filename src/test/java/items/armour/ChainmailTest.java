@@ -31,4 +31,9 @@ public class ChainmailTest {
         assertEquals(ItemElement.Light, chainmail.getElement());
     }
 
+    @Test
+    public void canGetDefenceValue(){
+        assertEquals(50, chainmail.getDefence());
+    }
+
 }
