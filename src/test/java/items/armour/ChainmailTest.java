@@ -26,4 +26,9 @@ public class ChainmailTest {
         assertEquals(2, chainmail.getBodySlot());
     }
 
+    @Test
+    public void canGetItemElement(){
+        assertEquals(ItemElement.Light, chainmail.getElement());
+    }
+
 }
