@@ -15,4 +15,28 @@ public abstract class Armour extends Items implements ISell {
         this.element = element;
         this.bodySlot = bodySlot;
     }
+
+    public int getDefence() {
+        return defence;
+    }
+
+    public void setDefence(int defence) {
+        this.defence = defence;
+    }
+
+    public ItemElement getElement() {
+        return element;
+    }
+
+    public void setElement(ItemElement element) {
+        this.element = element;
+    }
+
+    public int getBodySlot() {
+        return bodySlot;
+    }
+
+    public void setBodySlot(int bodySlot) {
+        this.bodySlot = bodySlot;
+    }
 }

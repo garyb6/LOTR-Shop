@@ -25,4 +25,9 @@ public class HelmetTest {
     public void canGetHelmetItemType(){
         assertEquals(ItemType.Defence, helmet.getType());
     }
+
+    @Test
+    public void canGetHelmetItemElement(){
+        assertEquals(ItemElement.None, helmet.getElement());
+    }
 }
