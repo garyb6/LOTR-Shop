@@ -21,4 +21,9 @@ public class ChainmailTest {
         assertEquals("More expensive than the whole of The Shire", chainmail.getDescription());
     }
 
+    @Test
+    public void canGetBodySlot(){
+        assertEquals(2, chainmail.getBodySlot());
+    }
+
 }
