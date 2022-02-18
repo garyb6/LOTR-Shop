@@ -1,4 +1,6 @@
 package medicine;
 
-public class Athelas {
+import items.Medicine;
+
+public class Athelas extends Medicine {
 }

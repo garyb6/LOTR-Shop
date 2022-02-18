@@ -1,4 +1,6 @@
 package medicine;
 
-public class Lembas {
+import items.Medicine;
+
+public class Lembas extends Medicine {
 }
