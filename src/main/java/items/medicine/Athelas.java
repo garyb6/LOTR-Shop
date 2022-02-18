@@ -1,4 +1,4 @@
-package medicine;
+package items.medicine;
 
 import items.Medicine;
 

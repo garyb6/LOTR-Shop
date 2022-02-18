@@ -1,4 +1,4 @@
-package armour;
+package items.armour;
 
 import items.Armour;
 

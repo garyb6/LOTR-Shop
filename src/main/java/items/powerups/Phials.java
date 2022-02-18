@@ -1,4 +1,4 @@
-package powerups;
+package items.powerups;
 
 import items.PowerUps;
 
