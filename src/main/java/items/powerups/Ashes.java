@@ -6,9 +6,20 @@ import items.PowerUps;
 
 public class Ashes extends PowerUps {
 
-    public Ashes(String name, String description, ItemType type, int stockPrice, int sellPrice, ItemElement element) {
-        super(name, description, type, stockPrice, sellPrice, element);
+    private int shadowIncrease;
 
+    public Ashes(String name, String description, ItemType type, int stockPrice, int sellPrice, ItemElement element, int shadowIncrease) {
+        super(name, description, type, stockPrice, sellPrice, element);
+        this.shadowIncrease = shadowIncrease;
+
+    }
+
+    public int getShadowIncrease() {
+        return shadowIncrease;
+    }
+
+    public void setShadowIncrease(int shadowIncrease) {
+        this.shadowIncrease = shadowIncrease;
     }
 
     @Override
