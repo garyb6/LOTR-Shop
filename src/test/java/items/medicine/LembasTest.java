@@ -34,7 +34,7 @@ public class LembasTest {
 
     @Test
     public void characterSays() {
-        assertEquals("That's much better!", lembas.characterSays());
+        assertEquals("One small bite will fill the stomach of a grown man", lembas.characterSays());
     }
 
     @Test

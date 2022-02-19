@@ -23,7 +23,7 @@ public class Lembas extends Medicine {
 
     @Override
     public String characterSays() {
-        return "That's much better!";
+        return "One small bite will fill the stomach of a grown man";
     }
 
     @Override
