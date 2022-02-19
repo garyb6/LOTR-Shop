@@ -6,8 +6,19 @@ import items.PowerUps;
 
 public class Phials extends PowerUps {
 
-    public Phials(String name, String description, ItemType type, int stockPrice, int sellPrice, ItemElement element) {
+    private int lightIncrease;
+
+    public Phials(String name, String description, ItemType type, int stockPrice, int sellPrice, ItemElement element, int lightIncrease) {
         super(name, description, type, stockPrice, sellPrice, element);
+        this.lightIncrease = lightIncrease;
+    }
+
+    public int getLightIncrease() {
+        return lightIncrease;
+    }
+
+    public void setLightIncrease(int lightIncrease) {
+        this.lightIncrease = lightIncrease;
     }
 
     @Override
