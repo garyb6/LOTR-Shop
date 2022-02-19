@@ -1,5 +1,6 @@
 package items.weapons;
 
+import behaviours.ISell;
 import items.ENUMs.ItemElement;
 import items.ENUMs.ItemType;
 import items.Weapons;
@@ -11,8 +12,7 @@ public class Sword extends Weapons {
 
     @Override
     public int calculateMarkUp() {
-        return 0;
+        return getSellPrice() - getStockPrice();
     }
-
 
 }
