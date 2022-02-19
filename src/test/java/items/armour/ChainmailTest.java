@@ -13,7 +13,8 @@ public class ChainmailTest {
 
     @Before
     public void setUp(){
-        chainmail = new Chainmail("Bilbo's Mithril Shirt", "More expensive than the whole of The Shire", ItemType.Defence, 500, 1000, 50, ItemElement.Light, 2 );
+        chainmail = new Chainmail("Bilbo's Mithril Shirt", "More expensive than the whole of The Shire",
+                ItemType.Defence, 500, 1000, 50, ItemElement.Light, 2 );
     }
 
     @Test

@@ -13,7 +13,8 @@ public class HelmetTest {
 
     @Before
     public void setUp() {
-        helmet = new Helmet ("Durin's Helm", "Helm of the late Dwarf Lord, Durin", ItemType.Defence, 10, 50, 5, ItemElement.None, 1 );
+        helmet = new Helmet ("Durin's Helm", "Helm of the late Dwarf Lord, Durin",
+                ItemType.Defence, 10, 50, 5, ItemElement.None, 1 );
     }
 
     @Test
