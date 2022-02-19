@@ -13,6 +13,14 @@ public class Lembas extends Medicine {
         this.hpIncrease = hpIncrease;
     }
 
+    public int getHpIncrease() {
+        return hpIncrease;
+    }
+
+    public void setHpIncrease(int hpIncrease) {
+        this.hpIncrease = hpIncrease;
+    }
+
     @Override
     public String characterSays() {
         return "That's much better!";
