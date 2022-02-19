@@ -7,4 +7,9 @@ public class Athelas extends Medicine {
     public String characterSays() {
         return null;
     }
+
+    @Override
+    public int calculateMarkUp() {
+        return getSellPrice() - getStockPrice();
+    }
 }
