@@ -47,8 +47,8 @@ public class ShopTest {
                 15, 60, ItemElement.Light, 50);
         axe = new Axe("Gimli's Axe", "There's plenty for the both of us, let the best dwarf win",
                 ItemType.Attack, 250, 750, 50, ItemElement.Light, false);
-        sword = new Sword ("Anduril", "Flame of the West", ItemType.Attack, 250, 1000, 40,
-                ItemElement.Light, true);
+        sword = new Sword ("Anduril", "Renewed shall be blade that was broken, The crownless again shall be King",
+                ItemType.Attack, 250, 1000, 40, ItemElement.Light, true);
 
     }
 
