@@ -18,6 +18,16 @@ public class AxeTest {
     }
 
     @Test
+    public void canGetItemType(){
+        assertEquals(ItemType.Attack, axe.getType());
+    }
+
+    @Test
+    public void canGetItemElement(){
+        assertEquals(ItemElement.Light, axe.getElement());
+    }
+
+    @Test
     public void canGetStockPrice(){
         assertEquals(250, axe.getStockPrice());
     }

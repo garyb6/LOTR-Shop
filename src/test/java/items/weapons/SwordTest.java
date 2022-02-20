@@ -18,22 +18,27 @@ public class SwordTest {
     }
 
     @Test
-    public void getName() {
+    public void canGetName() {
         assertEquals("Anduril", sword.getName());
     }
 
     @Test
-    public void getType() {
+    public void canGetItemType() {
         assertEquals(ItemType.Attack, sword.getType());
     }
 
     @Test
-    public void getStockPrice() {
+    public void canGetAttackIncreaseAmount(){
+        assertEquals(40, sword.getAttack());
+    }
+
+    @Test
+    public void canCheckStockPrice() {
         assertEquals(250, sword.getStockPrice());
     }
 
     @Test
-    public void getSellPrice() {
+    public void canGetSellPrice() {
         assertEquals(1000, sword.getSellPrice());
     }
 
