@@ -12,4 +12,8 @@ public abstract class Medicine extends Items implements ITalk, ISell {
         super(name, description, type, stockPrice, sellPrice);
         this.cure = cure;
     }
+
+    public Cure getCure() {
+        return cure;
+    }
 }

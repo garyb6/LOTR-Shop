@@ -17,8 +17,4 @@ public abstract class PowerUps extends Items implements ITalk, ISell {
     public ItemElement getElement() {
         return element;
     }
-
-    public void setElement(ItemElement element) {
-        this.element = element;
-    }
 }

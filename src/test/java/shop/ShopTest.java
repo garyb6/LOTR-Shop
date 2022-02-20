@@ -49,6 +49,15 @@ public class ShopTest {
                 250, 750, 50, ItemElement.Light, false);
         sword = new Sword ("Anduril", "Renewed shall be blade that was broken", ItemType.Attack,
                 250, 1000, 40, ItemElement.Light, true);
+        shop.addItem(chainmail);
+        shop.addItem(helmet);
+        shop.addItem(athelas);
+        shop.addItem(lembas);
+        shop.addItem(ashes);
+        shop.addItem(phials);
+        shop.addItem(axe);
+        shop.addItem(sword);
+
     }
 
     @Test
@@ -57,21 +66,27 @@ public class ShopTest {
     }
 
     @Test
-    public void checkStockStartsEmpty() {
-        assertEquals(0, shop.checkStockNumber());
+    public void checkStockStartsStocked() {
+        assertEquals(8, shop.checkStockNumber());
     }
 
     @Test
     public void canAddItemToStockList(){
         shop.addItem(axe);
-        assertEquals(1, shop.checkStockNumber());
+        assertEquals(9, shop.checkStockNumber());
     }
 
-    @Test public void canRemoveItemFromStockList(){
+    @Test
+    public void canRemoveItemFromStockList(){
         shop.addItem(axe);
         shop.addItem(sword);
         shop.addItem(helmet);
         shop.removeItem(axe);
-        assertEquals(2, shop.checkStockNumber());
+        assertEquals(10, shop.checkStockNumber());
     }
+
+//    @Test
+//    public void canCalculateTotalProfit(){
+//        assertEquals(1985, shop.calculateGrossProfit());
+//    }
 }

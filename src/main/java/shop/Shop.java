@@ -35,4 +35,8 @@ public class Shop{
     public void removeItem(ISell item) {
         this.stock.remove(item);
     }
+
+//    public int calculateGrossProfit() {
+//        for Isell item :
+//    }
 }

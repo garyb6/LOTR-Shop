@@ -17,10 +17,6 @@ public class Lembas extends Medicine {
         return hpIncrease;
     }
 
-    public void setHpIncrease(int hpIncrease) {
-        this.hpIncrease = hpIncrease;
-    }
-
     @Override
     public String characterSays() {
         return "One small bite will fill the stomach of a grown man";

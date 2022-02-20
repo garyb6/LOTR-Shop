@@ -18,6 +18,11 @@ public class LembasTest {
     }
 
     @Test
+    public void canGetCureType(){
+        assertEquals(Cure.Health, lembas.getCure());
+    }
+
+    @Test
     public void canGetStockPrice() {
         assertEquals(5, lembas.getStockPrice());
     }

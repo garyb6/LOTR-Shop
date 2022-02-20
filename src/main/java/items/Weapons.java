@@ -22,23 +22,12 @@ public abstract class Weapons extends Items implements ISell {
         return attack;
     }
 
-    public void setAttack(int attack) {
-        this.attack = attack;
-    }
-
     public ItemElement getElement() {
         return element;
-    }
-
-    public void setElement(ItemElement element) {
-        this.element = element;
     }
 
     public boolean isTwoHandWield() {
         return twoHandWield;
     }
 
-    public void setTwoHandWield(boolean twoHandWield) {
-        this.twoHandWield = twoHandWield;
-    }
 }

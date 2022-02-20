@@ -11,6 +11,6 @@ public class Helmet extends Armour {
 
     @Override
     public int calculateMarkUp() {
-        return 0;
+        return getSellPrice() - getStockPrice();
     }
 }
