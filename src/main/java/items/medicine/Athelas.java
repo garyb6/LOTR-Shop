@@ -17,10 +17,6 @@ public class Athelas extends Medicine {
         return statusHeal;
     }
 
-    public void setStatusHeal(String statusHeal) {
-        this.statusHeal = statusHeal;
-    }
-
     @Override
     public String characterSays() {
         return "I felt life in me again";

@@ -18,10 +18,6 @@ public class Ashes extends PowerUps {
         return shadowIncrease;
     }
 
-    public void setShadowIncrease(int shadowIncrease) {
-        this.shadowIncrease = shadowIncrease;
-    }
-
     @Override
     public int calculateMarkUp() {
         return getSellPrice() - getStockPrice();
