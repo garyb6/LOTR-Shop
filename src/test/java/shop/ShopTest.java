@@ -59,6 +59,11 @@ public class ShopTest {
     @Test
     public void checkStockStartsEmpty() {
         assertEquals(0, shop.checkStockNumber());
+    }
 
+    @Test
+    public void canAddItemToStockList(){
+        shop.addItem(axe);
+        assertEquals(1, shop.checkStockNumber());
     }
 }
