@@ -22,12 +22,8 @@ public class Shop{
         this.name = name;
     }
 
-    public ArrayList<ISell> getStock() {
-        return stock;
-    }
 
-    public void setStock(ArrayList<ISell> stock) {
-        this.stock = stock;
+    public int checkStockNumber() {
+        return this.stock.size();
     }
-
 }
