@@ -66,4 +66,12 @@ public class ShopTest {
         shop.addItem(axe);
         assertEquals(1, shop.checkStockNumber());
     }
+
+    @Test public void canRemoveItemFromStockList(){
+        shop.addItem(axe);
+        shop.addItem(sword);
+        shop.addItem(helmet);
+        shop.removeItem(axe);
+        assertEquals(2, shop.checkStockNumber());
+    }
 }
