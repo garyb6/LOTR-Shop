@@ -1,7 +1,6 @@
 package shop;
 
 import behaviours.ISell;
-import items.weapons.Axe;
 
 import java.util.ArrayList;
 
@@ -36,7 +35,12 @@ public class Shop{
         this.stock.remove(item);
     }
 
-//    public int calculateGrossProfit() {
-//        for Isell item :
-//    }
+    public int calculateGrossProfit() {
+        int total = 0;
+        for (ISell item : this.stock){
+            total += item.calculateMarkUp();
+        }
+        return total;
+    }
 }
+

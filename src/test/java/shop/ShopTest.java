@@ -85,8 +85,10 @@ public class ShopTest {
         assertEquals(10, shop.checkStockNumber());
     }
 
-//    @Test
-//    public void canCalculateTotalProfit(){
-//        assertEquals(1985, shop.calculateGrossProfit());
-//    }
+    @Test
+    public void canCalculateTotalProfit(){
+        assertEquals(1985, shop.calculateGrossProfit());
+    }
+
+    //finding 8 axes? weird.
 }
