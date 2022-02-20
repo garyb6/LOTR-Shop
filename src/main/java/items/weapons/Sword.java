@@ -6,7 +6,7 @@ import items.ENUMs.ItemType;
 import items.Weapons;
 
 public class Sword extends Weapons {
-    protected Sword(String name, String description, ItemType type, int stockPrice, int sellPrice, int attack, ItemElement element, boolean twoHandWield) {
+    public Sword(String name, String description, ItemType type, int stockPrice, int sellPrice, int attack, ItemElement element, boolean twoHandWield) {
         super(name, description, type, stockPrice, sellPrice, attack, element, twoHandWield);
     }
 

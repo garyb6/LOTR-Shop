@@ -9,9 +9,9 @@ public class Shop{
     private String name;
     private ArrayList<ISell> stock;
 
-    public Shop(String name, ArrayList<ISell> stock) {
+    public Shop(String name) {
         this.name = name;
-        this.stock = stock;
+        this.stock = new ArrayList <ISell>();
     }
 
     public String getName() {
@@ -29,4 +29,5 @@ public class Shop{
     public void setStock(ArrayList<ISell> stock) {
         this.stock = stock;
     }
+
 }
