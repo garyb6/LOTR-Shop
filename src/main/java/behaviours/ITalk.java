@@ -2,5 +2,5 @@ package behaviours;
 
 public interface ITalk {
 
-    public String characterSays();
+    String characterSays();
 }

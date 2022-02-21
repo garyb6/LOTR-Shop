@@ -1,17 +1,16 @@
 package shop;
 
-import behaviours.ISell;
-import items.ENUMs.Cure;
-import items.ENUMs.ItemElement;
-import items.ENUMs.ItemType;
-import items.armour.Chainmail;
-import items.armour.Helmet;
-import items.medicine.Athelas;
-import items.medicine.Lembas;
-import items.powerups.Ashes;
-import items.powerups.Phials;
-import items.weapons.Axe;
-import items.weapons.Sword;
+import shop.items.ENUMs.Cure;
+import shop.items.ENUMs.ItemElement;
+import shop.items.ENUMs.ItemType;
+import shop.items.armour.Chainmail;
+import shop.items.armour.Helmet;
+import shop.items.medicine.Athelas;
+import shop.items.medicine.Lembas;
+import shop.items.powerups.Ashes;
+import shop.items.powerups.Phials;
+import shop.items.weapons.Axe;
+import shop.items.weapons.Sword;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -90,5 +89,5 @@ public class ShopTest {
         assertEquals(1985, shop.calculateGrossProfit());
     }
 
-    //finding 8 axes? weird.
+    //finding 8 swords? weird.
 }
