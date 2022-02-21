@@ -4,9 +4,9 @@ import shop.items.ENUMs.ItemType;
 
 public abstract class Items {
 
-    protected static String name;
-    protected static String description;
-    protected static ItemType type;
+    protected String name;
+    protected String description;
+    protected ItemType type;
     protected int stockPrice;
     protected int sellPrice;
 
