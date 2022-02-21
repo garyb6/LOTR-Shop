@@ -17,7 +17,6 @@ public class Phials extends PowerUps {
         return lightIncrease;
     }
 
-    @Override
     public int calculateMarkUp() {
         return getSellPrice() - getStockPrice();
     }

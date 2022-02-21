@@ -22,7 +22,6 @@ public class Athelas extends Medicine {
         return "I felt life in me again";
     }
 
-    @Override
     public int calculateMarkUp() {
         return getSellPrice() - getStockPrice();
     }

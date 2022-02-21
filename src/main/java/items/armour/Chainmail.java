@@ -9,7 +9,6 @@ public class Chainmail extends Armour {
         super(name, description, type, stockPrice, sellPrice, defence, element, bodySlot);
     }
 
-    @Override
     public int calculateMarkUp() {
         return getSellPrice() - getStockPrice();
     }

@@ -10,7 +10,6 @@ public class Sword extends Weapons {
         super(name, description, type, stockPrice, sellPrice, attack, element, twoHandWield);
     }
 
-    @Override
     public int calculateMarkUp() {
         return getSellPrice() - getStockPrice();
     }

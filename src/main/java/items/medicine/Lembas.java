@@ -22,7 +22,6 @@ public class Lembas extends Medicine {
         return "One small bite will fill the stomach of a grown man";
     }
 
-    @Override
     public int calculateMarkUp() {
         return getSellPrice() - getStockPrice();
     }

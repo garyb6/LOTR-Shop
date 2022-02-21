@@ -37,10 +37,14 @@ public class Shop{
 
     public int calculateGrossProfit() {
         int total = 0;
-        for (ISell item : this.stock){
-            total += item.calculateMarkUp();
+//        for (ISell item : this.stock){
+//            total += item.calculateMarkUp();
+//        }
+        for (int i = 0; i < this.stock.size(); i++){
+            total += this.stock.get(i).calculateMarkUp();
         }
         return total;
     }
 }
+
 
