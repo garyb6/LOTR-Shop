@@ -89,5 +89,17 @@ public class ShopTest {
         assertEquals(1985, shop.calculateGrossProfit());
     }
 
-    //finding 8 swords? weird.
+    @Test
+    public void canCheckStockLevelIsGood(){
+        assertEquals("Stock Levels Good", shop.checkStockLevel() );
+    }
+
+    @Test
+    public void canCheckStockLevelIsLow(){
+        shop.removeItem(axe);
+        shop.removeItem(sword);
+        shop.removeItem(helmet);
+        shop.removeItem(chainmail);
+        assertEquals("Stock Levels Low", shop.checkStockLevel() );
+    }
 }
